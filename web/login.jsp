@@ -23,10 +23,10 @@
                         <div class="form-control">
                             <label class="label">
                                 <span class="label-text">Correo</span>
-<input type="email" name="correo" id="correo"
-       placeholder="correo@correo.com"
-       class="input input-bordered"
-       required />
+                                <input type="email" name="correo" id="correo"
+                                       placeholder="correo@correo.com"
+                                       class="input input-bordered"
+                                       required />
                         </div>
 
                         <div class="form-control">
