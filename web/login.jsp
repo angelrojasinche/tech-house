@@ -22,10 +22,11 @@
 
                         <div class="form-control">
                             <label class="label">
-                                <span class="label-text">Usuario</span>
-                            </label>
-
-                            <input type="text" name="usuario" id="usuario" placeholder="Ej: admin" class="input input-bordered" required />
+                                <span class="label-text">Correo</span>
+<input type="email" name="correo" id="correo"
+       placeholder="correo@correo.com"
+       class="input input-bordered"
+       required />
                         </div>
 
                         <div class="form-control">
