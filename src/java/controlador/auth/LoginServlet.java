@@ -44,11 +44,11 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String correo = request.getParameter("correo");
+        String user = request.getParameter("usuario");
         String password = request.getParameter("password");
 
         UsuarioDAO dao = new UsuarioDAOImpl();
-        Usuario u = dao.login(correo, password);
+        Usuario u = dao.login(user, password);
 
         if (u != null) {
             HttpSession session = request.getSession();
